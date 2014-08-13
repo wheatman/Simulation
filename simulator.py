@@ -430,8 +430,6 @@ def make_grid(task_group):
     grid_length = len(task_grid[0])
     return (task_grid, grid_width, grid_length)
 
-# github
-
 
 # to test the simulation without the gui
 # allows you to have it run for n steps
