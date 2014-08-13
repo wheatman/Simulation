@@ -1,0 +1,165 @@
+To add a task group fill in all of the blanks provided with the correct information.
+How many different tasks do you have? (an integer)
+--     6     --
+How much money to start with? (an integer)
+--     1500     --
+What is the period length? (an integer number of time steps)
+--   400       --
+How many periods are there? (an integer)
+--    2      --
+What is the period cost? (an integer)
+--    500      --
+fill out the information for each task seperatly, use as many as you need, leave the rest blank .
+
+Task #1
+Task name?
+--   T1       --
+What robot will be completing the task?
+--    Robot1     --
+What inputs are used? (the name of each input seperated by commas)
+--     a    --
+How many of each input is nessasary to make one round of outputs? (integers, same order as above, seperated by commas)
+--    1     --
+The number of time steps it taks to set up? (an integer)
+--    5    --
+The number of time steps to process one set of inputs? (an integer)
+--    3     --
+What the output is?
+--    b      --
+How many outputs are made each round? (an integer)
+--    1      --
+How many of each item starts in the input queue? (integers seperated by commas)
+--     20000     --
+How much does it cost to buy an input? (integers seperated by commas, 0 if it can't be bought)
+--     10     --
+How much can you sell an output for? (an integer, 0 if it can't be sold)
+--    0      --
+
+Task #2
+Task name?
+--   T2       --
+What robot will be completing the task?
+--    Robot2     --
+What inputs are used? (the name of each input seperated by commas)
+--     c    --
+How many of each input is nessasary to make one round of outputs? (integers, same order as above, seperated by commas)
+--    1     --
+The number of time steps it taks to set up? (an integer)
+--    1    --
+The number of time steps to process one set of inputs? (an integer)
+--    1     --
+What the output is?
+--    d      --
+How many outputs are made each round? (an integer)
+--    1      --
+How many of each item starts in the input queue? (integers seperated by commas)
+--     20000     --
+How much does it cost to buy an input? (integers seperated by commas, 0 if it can't be bought)
+--     10     --
+How much can you sell an output for? (an integer, 0 if it can't be sold)
+--    0      --
+
+Task #3
+Task name?
+--   T3       --
+What robot will be completing the task?
+--    Robot3     --
+What inputs are used? (the name of each input seperated by commas)
+--     e    --
+How many of each input is nessasary to make one round of outputs? (integers, same order as above, seperated by commas)
+--    1     --
+The number of time steps it taks to set up? (an integer)
+--    5    --
+The number of time steps to process one set of inputs? (an integer)
+--    3     --
+What the output is?
+--    f      --
+How many outputs are made each round? (an integer)
+--    1      --
+How many of each item starts in the input queue? (integers seperated by commas)
+--     20000     --
+How much does it cost to buy an input? (integers seperated by commas, 0 if it can't be bought)
+--     10     --
+How much can you sell an output for? (an integer, 0 if it can't be sold)
+--    0      --
+
+Task #4
+Task name?
+--   T4       --
+What robot will be completing the task?
+--    Robot2     --
+What inputs are used? (the name of each input seperated by commas)
+--     b, d    --
+How many of each input is nessasary to make one round of outputs? (integers, same order as above, seperated by commas)
+--    1,1     --
+The number of time steps it taks to set up? (an integer)
+--    5     --
+The number of time steps to process one set of inputs? (an integer)
+--    3      --
+What the output is?
+--    x      --
+How many outputs are made each round? (an integer)
+--    1      --
+How many of each item starts in the input queue? (integers seperated by commas)
+--     0,0     --
+How much does it cost to buy an input? (integers seperated by commas, 0 if it can't be bought)
+--     0,0     --
+How much can you sell an output for? (an integer, 0 if it can't be sold)
+--    30      --
+
+Task #5
+Task name?
+--   T5       --
+What robot will be completing the task?
+--    Robot3     --
+What inputs are used? (the name of each input seperated by commas)
+--     d, f    --
+How many of each input is nessasary to make one round of outputs? (integers, same order as above, seperated by commas)
+--    1,1     --
+The number of time steps it taks to set up? (an integer)
+--    5     --
+The number of time steps to process one set of inputs? (an integer)
+--    3      --
+What the output is?
+--    y      --
+How many outputs are made each round? (an integer)
+--    1      --
+How many of each item starts in the input queue? (integers seperated by commas)
+--     0,0     --
+How much does it cost to buy an input? (integers seperated by commas, 0 if it can't be bought)
+--     0,0     --
+How much can you sell an output for? (an integer, 0 if it can't be sold)
+--    30      --
+
+
+Task #6
+Task name?
+--   T6       --
+What robot will be completing the task?
+--    Robot1     --
+What inputs are used? (the name of each input seperated by commas)
+--     x, y    --
+How many of each input is nessasary to make one round of outputs? (integers, same order as above, seperated by commas)
+--    1,1     --
+The number of time steps it taks to set up? (an integer)
+--    5     --
+The number of time steps to process one set of inputs? (an integer)
+--    3      --
+What the output is?
+--    z      --
+How many outputs are made each round? (an integer)
+--    1      --
+How many of each item starts in the input queue? (integers seperated by commas)
+--     0,0     --
+How much does it cost to buy an input? (integers seperated by commas, 0 if it can't be bought)
+--     0,0     --
+How much can you sell an output for? (an integer, 0 if it can't be sold)
+--    60      --
+
+How many limitations are there? (A limitation is a rule that says one output can only sell an amount up to the amount sold of another output)
+--     2     --
+Write the number of the limited task, comma,  the number of the timiting task ( 2,3 would mean that the output of 2 can only sell as much as the output of 3 has sold)
+--    4,6      --
+--    5,6      --
+--          --
+
